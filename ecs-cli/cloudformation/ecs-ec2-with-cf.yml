@@ -41,7 +41,7 @@ Resources:
     Type: AWS::EC2::SecurityGroup
     Properties:
       GroupDescription: Access to the ECS hosts
-      VpcId: 
+      VpcId:
         Fn::ImportValue: !Sub ${EnvironmentName}:VpcId
       SecurityGroupIngress:
         - IpProtocol: tcp
