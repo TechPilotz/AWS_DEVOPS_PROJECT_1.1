@@ -88,4 +88,3 @@ Outputs:
     Value: !Ref 'PublicSubnetTwo'
     Export:
       Name: !Sub ${EnvironmentName}:PublicSubnetTwo
-
